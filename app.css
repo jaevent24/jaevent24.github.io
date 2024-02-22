@@ -1,6 +1,20 @@
 h1{
-    color :darkorange;
+    color :black;
+    text-align: center;
 }
-body{
-    background-color: lightblue;
+h2{
+    color :black;
+    text-align: left;
+}
+body {
+    min-height: 100%;
+    background-image: url('sky.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+p {
+    margin-bottom: 20px; /* Adds space below paragraphs */
+    text-align: justify; /* Justifies the text */
 }
